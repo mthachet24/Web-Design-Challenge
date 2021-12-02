@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
  <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Bootstrap Visualization Dashboard</title>
+   <title>Comparison_Page</title>
    
    
    
@@ -19,7 +18,8 @@
    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
  </head>
  <body>
-     
+
+
 
 
 <!--Navbar-->
@@ -62,40 +62,49 @@
                 <div class="col-md-1"></div>
     
                 <div class="col-md-7 content">
+
+         <h1>Comparison Page Regarding Latitude and the Climate Factors</h1>
+         <hr>
+         <p>For analysis click plot.</p>
+            
+    <div class="row">
+        <div class="col-md-6">
+            <h2>vs. Max Temperature</h2>
+            <a href="Max_Temp.html">
+                <img src="Images/Latitude_MaxTemperature_Plot.png" alt="Max Temperature Visual" class="big_img">
+            </a>
+        </div>
+
+        <div class="col-md-6">
+            <h2>vs. Humidity</h2>
+            <a href="Humidity.html">
+                <img src="Images/Latitude_Humidity_Plot.png" alt="Humidity Visual" class="big_img">
+            </a>
+        </div>
+    </div>
     
-                    <h1>Summary: Latitude vs. Different Climate Factors</h1>
-                    <hr>
-                    <article>
-                        <img src="Images/Latitude_MaxTemperature_Plot.png" alt="Max Tempurature Visual" class="big_img" width=40%
-                            style="float: left">
-                        <br>
-                        <p>I analyzed the different climate factors that affects close to 550 different cities in the entire world. I used matplotlib to plot the different climate factors vs. the latitude. The factors are max temperature, humidity, cloudiness, and wind speed.</p>
-                        <p>The result is shown in depth on each visualization page.</p>
-                    </article>
-                </div>
-    
-    
-    
-                <div class="col-md-3 content">
-                    <h1>All Visualizations</h1>
-                    <article>
-                        <hr>
-                        <a href="VisualizationPage_MaxTemp.html">
-                            <img src="Images/Latitude_MaxTemperature_Plot.png" alt="Max Tempurature Visual" class="small_img">
-                        </a>
-                        <a href="VisualizationPage_Humidity.html">
-                            <img src="Images/Latitude_Humidity_Plot.png" alt="Humidity Visual" class="small_img">
-                        </a>
-                        <a href="VisualizationPage_Cloudiness.html">
-                            <img src="Images/Latitude_Cloudiness_Plot.png" alt="Cloudiness Visual" class="small_img">
-                        </a>
-                        <a href="VisualizationPage_WindSpeed.html">
-                            <img src="Images/Latitude_WindSpeed_Plot.png" alt="WindSpeed Visual" class="small_img">
-                        </a>
-                    </article>
-                </div>
-                <div class="col-md-1"></div>
-            </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>vs. Cloudiness</h2>
+            <a href="Cloudiness.html">
+                <img src="Images/Latitude_Cloudiness_Plot.png" alt="Cloudiness Visual" class="big_img">
+            </a>
+        </div>
+        
+        <div class="col-md-6">
+            <h2>vs. Wind Speed</h2>
+            <a href="Wind_Speed.html">
+                <img src="Images/Latitude_WindSpeed_Plot.png" alt="WindSpeed Visual" class="big_img">
+
+            </a>
+        </div>
+    </div>
+        
+        
+    </article>
+</div>
+</div>
+
 
         <!-- jQuery CDN -->
             <script type="text/javascript" 
@@ -108,6 +117,3 @@
  
     </body>
 </html>
-
-
-
