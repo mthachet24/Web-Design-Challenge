@@ -26,7 +26,7 @@
 
     <body>
             <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-                <a class="navbar-brand navbar-custom" href="index.html">Latitude</a>
+                <a class="navbar-brand navbar-custom" href="index.html">Weather and Latitude</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -69,7 +69,8 @@
                         <img src="Images/Latitude_MaxTemperature_Plot.png" alt="Max Tempurature Visual" class="big_img" width=40%
                             style="float: left">
                         <br>
-                        <p>I analyzed the different climate factors that affects close to 550 different cities in the entire world. I used matplotlib to plot the different climate factors vs. the latitude. The factors are max temperature, humidity, cloudiness, and wind speed.</p>
+                        <p>I analyzed weather patterns based on distance to the equator. I utilized Python script to visualize the weather of 500+ cities across the world of varying distance from the equator.I utilized a simple Python library, the OpenWeatherMap API, to create representative models of weather across world cities.</p>
+                        <p>I first assembled a dataset of more than 500 cities using the citipy python library and python to randomly generate coordinates to get the nearest city. Then I used this list of cities to get the weather using the OpenWeatherMap API. Using MatPlotLib, I used each city's maximum temperature, humidity, cloudiness, or wind speed and plotted the data with the latitude on the appropriate graphs.</p>
                         <p>The result is shown in depth on each visualization page.</p>
                     </article>
                 </div>
@@ -80,16 +81,16 @@
                     <h1>All Visualizations</h1>
                     <article>
                         <hr>
-                        <a href="VisualizationPage_MaxTemp.html">
+                        <a href="Max_Temp.html">
                             <img src="Images/Latitude_MaxTemperature_Plot.png" alt="Max Tempurature Visual" class="small_img">
                         </a>
-                        <a href="VisualizationPage_Humidity.html">
+                        <a href="Humidity.html">
                             <img src="Images/Latitude_Humidity_Plot.png" alt="Humidity Visual" class="small_img">
                         </a>
-                        <a href="VisualizationPage_Cloudiness.html">
+                        <a href="Cloudiness.html">
                             <img src="Images/Latitude_Cloudiness_Plot.png" alt="Cloudiness Visual" class="small_img">
                         </a>
-                        <a href="VisualizationPage_WindSpeed.html">
+                        <a href="Wind_Speed.html">
                             <img src="Images/Latitude_WindSpeed_Plot.png" alt="WindSpeed Visual" class="small_img">
                         </a>
                     </article>
